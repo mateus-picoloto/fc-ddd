@@ -26,8 +26,7 @@ export default class Order {
         return this._items;
     }
 
-    changeItems(items: OrderItem[])
-    {
+    changeItems(items: OrderItem[]): void {
         this._items = items;
     }
 
